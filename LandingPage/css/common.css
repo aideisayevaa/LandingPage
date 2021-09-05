@@ -1,0 +1,142 @@
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+
+/* Colors */
+:root {
+    --white: #ffffff;
+    --white-second:#E9E8E8;
+    --black: #000000;
+    --gray:#666;
+    --gray-second:#656565;
+    --gray-third:#989898;
+    --gray-fourth:#323232;
+    --blue:#190A32;
+    --purple:#6B40BF;
+
+}
+
+/* Headers */
+
+.first-heading{
+    color: var(--blue);
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.second-heading{
+    color: var(--gray);
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+
+.third-heading{
+    color: var(--blue);
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.fourth-heading{
+    color: var(--blue);
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+/* Buttons */
+
+.btn{
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 13px 23px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:all .4s ease;
+}
+
+.first-btn{
+    border: none;
+    background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: white;
+}
+
+.second-btn{
+    border: 2px solid #8341c1;
+    background: none;
+    color: var(--blue);
+    transition: all .5s ease;
+}
+
+.second-btn:hover{
+    background:linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+    color: var(--white);
+}
+
+/* margin, padding */
+
+.first-margin{
+    margin: 40px 0;
+}
+
+.first-padding{
+    padding: 50px 0;
+}
+
+/* Content */
+.content span {
+    color:  var(--purple);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content span:hover {
+    color: #d43396;
+}
